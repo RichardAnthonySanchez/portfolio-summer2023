@@ -1,0 +1,30 @@
+:root {
+    --light-color: #52FF00;
+    /* --medium-color: */
+    --dark-color: #161E11;
+}
+
+body {
+    color: var(--light-color);
+    background-color: var(--dark-color);
+}
+
+.project-card {
+    background-color: var(--light-color);
+    height: 20rem;
+    gap: 1rem;
+}
+
+.project-title {
+    background-color: var(--light-color);
+    height: 5rem;
+    gap: 1rem;
+}
+
+.projects-row {
+    gap: 1rem;
+}
+
+.projects-row-title {
+    gap: 1rem;
+}
