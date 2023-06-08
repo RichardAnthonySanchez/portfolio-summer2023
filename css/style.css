@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono&display=swap');
+
 :root {
     --light-color: #52FF00;
-    /* --medium-color: */
+     --medium-color: #ad00ff;
     --dark-color: #161E11;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.my-projects h1 {
+    background-color: var(--light-color);
+    color: var(--dark-color);
 }
 
 body {
@@ -9,16 +24,46 @@ body {
     background-color: var(--dark-color);
 }
 
+.btn-primary {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    border: .01rem solid var(--light-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border: .01rem solid var(--light-color);
+}
+
 .project-card {
     background-color: var(--light-color);
     height: 20rem;
     gap: 1rem;
+    overflow: hidden;
+}
+
+.img-project-1 {
+    transform: translateX(-30%) translateY(-10%) scale(.80);
+}
+
+.img-project-2 {
+    transform: translateX(-20%) translateY(-19%) scale(.80);
+}
+
+.img-project-1,
+.img-project-2 {
+    mix-blend-mode: multiply;
 }
 
 .project-title {
     background-color: var(--light-color);
     height: 5rem;
     gap: 1rem;
+}
+
+.project-title h2 {
+    color: var(--dark-color);
 }
 
 .projects-row {
