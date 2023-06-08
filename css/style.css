@@ -24,6 +24,32 @@ body {
     background-color: var(--dark-color);
 }
 
+::selection {
+    color: var(--dark-color);
+    background: var(--light-color);
+  }
+
+  .accordion-button:not(.collapse) {
+    color: var(--dark-color) !important;
+    background-color: var(--light-color) !important;
+  }
+  
+  .accordion-button:not(.collapse)::after {
+    filter: brightness(0%) invert(0);
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none !important;
+  }
+  
+  .accordion-button:hover {
+    background-color: var(--light-color) !important;
+  }
+  
+  .accordion-collapse {
+    background-color: var(--light-color);
+  }
+
 .btn-primary {
     background-color: var(--dark-color);
     color: var(--light-color);
@@ -58,7 +84,7 @@ body {
 
 .project-title {
     background-color: var(--light-color);
-    height: 5rem;
+    height: auto;
     gap: 1rem;
 }
 

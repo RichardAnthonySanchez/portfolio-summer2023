@@ -12,11 +12,11 @@
     <div class="hompage-container container col min-vh-100 pt-4">
 
        <!-- header -->
-        <div class="header d-flex justify-content-center pt-5">
+        <div class="header d-flex justify-content-center pt-4">
             <div class="col-10">
                 <h1>hi.</h1>
                 <h1>i'm tony sanchez</h1>
-                <h2>i'm a web developer that will bring your ideas to life</h2>
+                <h2>a web dev, building experiences that inspire</h2>
             </div>
             <div class="col-2">
                 <button class="btn btn-primary rounded-0">résumé</button>
@@ -24,7 +24,7 @@
         </div>
 
        <!-- my projects -->
-       <div class="my-projects col pt-2">
+       <div class="my-projects col pt-4">
             <h1 class="d-flex justify-content-center">my projects</h1>
         </div>
         <div class="projects-row row d-flex justify-content-center pt-2">
@@ -37,15 +37,77 @@
         </div>
         <div class="projects-row-title row d-flex justify-content-center pt-3">
             <div class="col-3 project-title">
-                <h2 class="">cardournal</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            cardournal
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <h2>about</h2>
+                            <p>a prompt-based journal application that blends the art of tarot with the power of self reflection. dive into a world of discovery and personal growth as you embark on a unique journaling journey</p>
+                            <h2>technologies</h2>
+                            <ul>
+                                <li>bootstrap</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                            <h2>features</h2>
+                            <ul>
+                                <li>cache user data</li>
+                                <li>dynamic hompage</li>
+                                <li>responsive design</li>
+                            </ul>
+                            <h2>project difficulties</h2>
+                            <p>the first iteration of this project displayed a spread of ten cards with information attached to each card. this was daunting for new users and wasn't practical.</p>
+                            <h2>my solution</h2>
+                            <p>now the display on start up shows one card at a time with its a prompt. there's a text area for the user's entry, where they reflect on their experiences. one prompt per card allowed users to associate and learn more efficiently and the project meant a lot more to people when it became their journal instead of just a database. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
             <div class="col-3 project-title">
-                <h2 class="">masterpiece hub</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            masterpiece hub
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <h2>about</h2>
+                            <p>masterpiece hub is an online platform that provides a curated collection of art pieces from various historical periods, artists, and art movements. users can browse art eras, discover famous artists, and view high-quality images of the artworks with informative descriptions.</p>
+                            <h2>technologies</h2>
+                            <ul>
+                                <li>react</li>
+                                <li>node.js</li>
+                                <li>express</li>
+                                <li>mongoDB</li>
+                                <li>bootstrap</li>
+                            </ul>
+                            <h2>features</h2>
+                            <ul>
+                                <li>token authentication</li>
+                                <li>dynamic segments</li>
+                                <li>process server data from GUI</li>
+                            </ul>
+                            <h2>project difficulties</h2>
+                            <p>when i first made masterpiece hub, i had mainly planned through the user experience. this caused me to focus on unnecessary features instead of the utility of the project.</p>
+                            <h2>my solution</h2>
+                            <p>i removed code that allowed users to search artworks by name. this would go largely unused. our target users are using this platform to educate themselves. a search bar would only apply to people who are already familiar with artworks, so deleting the feature was necessary. this allowed me to make time to automate the generation of the artwork pages - a feature that saved countless hours.</p>
+                        </div> 
+                     </div>
+                    </div>
+                  </div>
             </div>
         </div>
 
        <!-- contact -->
-       <div class="contact col-10 pt-2">
+       <div class="contact col-10 pt-4">
             <h1 class="text-center">richard.sanchez.audio@gmail.com</h1>
         </div>
     </div>
