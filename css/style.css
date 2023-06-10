@@ -36,6 +36,11 @@ body {
     background: var(--light-color);
   }
 
+  .accordion-body ::selection {
+    color: var(--light-color);
+    background: var(--dark-color);
+  }
+
   .subheader-lg {
     font-size: 1.5rem;
   }
