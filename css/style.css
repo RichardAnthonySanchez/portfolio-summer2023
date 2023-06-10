@@ -36,6 +36,14 @@ body {
     background: var(--light-color);
   }
 
+  .contact {
+    gap: 1rem;
+  }
+
+  .contact-btn {
+    height: 2.5rem;
+  }
+
   .accordion-body ::selection {
     color: var(--light-color);
     background: var(--dark-color);
