@@ -8,7 +8,14 @@
 
 h1 {
     font-family: 'Press Start 2P', cursive;
+    font-size: 1.3rem;
 }
+
+@media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
 
 h2 {
     font-family: 'Roboto Mono', monospace;
@@ -27,6 +34,20 @@ body {
 ::selection {
     color: var(--dark-color);
     background: var(--light-color);
+  }
+
+  .subheader-lg {
+    font-size: 1.5rem;
+  }
+
+  .subheader-sm {
+    font-size: 1.6rem;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .subheader-sm {
+      font-size: 0.8rem;
+    }
   }
 
   .accordion-button:not(.collapse) {
@@ -48,6 +69,11 @@ body {
   
   .accordion-collapse {
     background-color: var(--light-color);
+  }
+
+  .accordion-item-sm {
+    margin-top: 4rem;
+    color: var(--dark-color);
   }
 
 .btn-primary {
