@@ -40,6 +40,10 @@ body {
     gap: 1rem;
   }
 
+  .contact h1 {
+    font-size: 1.9rem;
+  }
+
   .contact-btn {
     height: 2.5rem;
   }
