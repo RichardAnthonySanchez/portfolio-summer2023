@@ -7,6 +7,13 @@
   --accent-color: #c4572f;
   --secondary-color: #c49a3d;
   --transparent-color: #000;
+
+  --global-padding: 350px;
+}
+
+.wrapper {
+  padding-left: var(--global-padding);
+  padding-right: var(--global-padding);
 }
 
 h1 {
@@ -28,6 +35,7 @@ button {
 .secondary-button {
   color: var(--accent-color);
   background-color: transparent;
+  border: 2px solid var(--accent-color);
 }
 
 .container {
@@ -44,8 +52,15 @@ button {
   align-items: center;
 }
 
+.nav {
+  padding-left: 0px;
+  display: flex;
+  justify-content: start;
+}
+
 .ul-nav {
   display: flex;
+  padding: 0px;
 }
 
 .li-nav {
@@ -65,11 +80,13 @@ button {
 .intro-image {
   height: 400px;
   width: 500px;
+  background-color: var(--accent-color);
 }
 
 .projects-image {
   height: 400px;
   width: 500px;
+  background-color: var(--accent-color);
 }
 
 .section-projects {
@@ -80,6 +97,7 @@ button {
 
 .projects-content {
   display: flex;
+  align-items: center;
 }
 
 .projects-header {
@@ -94,9 +112,12 @@ button {
   font-weight: 400;
   font-style: normal;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   h1 {
     font-size: 2.5rem;
+  }
+  :root {
+    --global-padding: 48px;
   }
 }
 
@@ -147,6 +168,9 @@ body {
 @media only screen and (max-width: 767px) {
   .subheader-sm {
     font-size: 0.8rem;
+  }
+  :root {
+    --global-padding: 16px;
   }
 }
 
