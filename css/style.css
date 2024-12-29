@@ -9,6 +9,8 @@
   --transparent-color: #000;
 
   --global-padding: 350px;
+  --global-text-padding: 24px;
+  --global-image-margin: 0px;
 }
 
 .wrapper {
@@ -46,6 +48,14 @@ button {
   background-color: var(--dark-color);
 }
 
+.text-content {
+  padding-left: var(--global-text-padding);
+}
+
+.projects-content-container {
+  padding-left: var(--global-text-padding);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -81,12 +91,16 @@ button {
   height: 400px;
   width: 500px;
   background-color: var(--accent-color);
+  margin-top: var(--global-image-margin);
+  margin-bottom: var(--global-image-margin);
 }
 
 .projects-image {
   height: 400px;
   width: 500px;
   background-color: var(--accent-color);
+  margin-top: var(--global-image-margin);
+  margin-bottom: var(--global-image-margin);
 }
 
 .section-projects {
@@ -171,6 +185,8 @@ body {
   }
   :root {
     --global-padding: 16px;
+    --global-text-padding: 0px;
+    --global-image-margin: 24px;
   }
   .section-intro {
     flex-direction: column-reverse;
