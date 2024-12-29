@@ -54,6 +54,11 @@ button {
 
 .projects-content-container {
   padding-left: var(--global-text-padding);
+  margin-bottom: var(--global-image-margin);
+}
+
+.projects-body {
+  margin-bottom: 24px;
 }
 
 .header {
@@ -126,6 +131,11 @@ button {
   font-weight: 400;
   font-style: normal;
 }
+
+.footer-body {
+  margin-bottom: 12px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   h1 {
     font-size: 2.5rem;
@@ -184,7 +194,7 @@ body {
     font-size: 0.8rem;
   }
   :root {
-    --global-padding: 16px;
+    --global-padding: 100px;
     --global-text-padding: 0px;
     --global-image-margin: 24px;
   }
