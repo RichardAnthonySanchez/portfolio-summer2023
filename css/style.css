@@ -5,7 +5,7 @@
   --medium-color: #3e3e3c;
   --dark-color: #2d2d2d;
   --accent-color: #c4572f;
-  --secondary-color: #c49a3d;
+  --secondary-color: #5f9ea0;
   --transparent-color: #000;
 
   --global-padding: 350px;
@@ -32,6 +32,10 @@ button {
   padding: 10px;
   border: none;
   color: var(--dark-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
 }
 
 .secondary-button {
