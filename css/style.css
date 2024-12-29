@@ -172,6 +172,12 @@ body {
   :root {
     --global-padding: 16px;
   }
+  .section-intro {
+    flex-direction: column-reverse;
+  }
+  .projects-content {
+    flex-direction: column;
+  }
 }
 
 .accordion-button:not(.collapse) {
