@@ -94,9 +94,10 @@ button {
 }
 
 .intro-image {
+  display: flex;
+  justify-content: center;
   height: 400px;
   width: 500px;
-  background-color: var(--accent-color);
   margin-top: var(--global-image-margin);
   margin-bottom: var(--global-image-margin);
 }
