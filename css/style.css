@@ -226,7 +226,7 @@ body {
 
 ::selection {
   color: var(--dark-color);
-  background: var(--light-color);
+  background: var(--secondary-color);
 }
 
 .contact {
