@@ -32,6 +32,8 @@ button {
   padding: 10px;
   border: none;
   color: var(--dark-color);
+
+  border: 1px dashed var(--dark-color);
 }
 
 .secondary-color {
