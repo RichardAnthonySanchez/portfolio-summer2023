@@ -111,6 +111,16 @@ button {
   padding: 0px;
 }
 
+.li-nav:nth-child(1) {
+  transform: rotate(-2deg);
+}
+.li-nav:nth-child(2) {
+  transform: rotate(1deg);
+}
+.li-nav:nth-child(3) {
+  transform: rotate(-3deg);
+}
+
 .li-nav {
   padding-left: 20px;
   list-style-type: none;
@@ -133,6 +143,7 @@ button {
   background-color: var(--medium-color);
   margin-top: 12px;
   padding: 12px;
+  transform: rotate(-0.5deg);
 }
 
 .shadow {
