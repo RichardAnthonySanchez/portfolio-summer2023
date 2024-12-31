@@ -182,6 +182,12 @@ button {
   margin-bottom: var(--global-image-margin);
 }
 
+.underline {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
 .projects-image {
   display: flex;
   justify-content: center;
