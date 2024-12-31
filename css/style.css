@@ -108,13 +108,17 @@ button {
 .li-nav {
   padding-left: 20px;
   list-style-type: none;
+  background-color: var(--medium-color);
+  padding: 12px;
+  margin: 2px;
+}
+
+.nav-link {
   font-family: "Special Elite", serif;
   font-weight: 400;
   font-style: normal;
   color: var(--accent-color);
-  background-color: var(--medium-color);
-  padding: 12px;
-  margin: 2px;
+  text-decoration: none;
 }
 
 .section-intro {
