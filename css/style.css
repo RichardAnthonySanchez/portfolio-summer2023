@@ -142,7 +142,6 @@ button {
   align-items: center;
   background-color: var(--medium-color);
   margin-top: 12px;
-  padding: 12px;
   transform: rotate(-0.5deg);
 }
 
