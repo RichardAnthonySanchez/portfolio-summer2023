@@ -11,6 +11,12 @@
   --global-padding: 350px;
   --global-text-padding: 24px;
   --global-image-margin: 0px;
+
+  --global-paragraph-size: 20px;
+}
+
+p {
+  font-size: var(--global-paragraph-size);
 }
 
 .wrapper {
