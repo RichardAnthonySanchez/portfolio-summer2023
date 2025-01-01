@@ -245,7 +245,7 @@ button {
   color: var(--dark-color);
   padding: 24px;
   height: 400px;
-  width: 500px;
+  width: 350px;
   margin-top: var(--global-image-margin);
   margin-bottom: var(--global-image-margin);
   background-color: var(--accent-color);
