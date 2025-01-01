@@ -28,6 +28,10 @@ a:hover {
   color: var(--secondary-color);
 }
 
+img {
+  pointer-events: none;
+}
+
 .wrapper {
   padding-left: var(--global-padding);
   padding-right: var(--global-padding);
