@@ -100,6 +100,13 @@ button {
   padding-left: var(--global-text-padding);
 }
 
+.underline {
+  position: absolute;
+  bottom: 0;
+  width: 25%;
+  height: auto;
+}
+
 .projects-content-container {
   padding-left: var(--global-text-padding);
   margin-bottom: var(--global-image-margin);
@@ -182,12 +189,6 @@ button {
   margin-bottom: var(--global-image-margin);
 }
 
-.underline {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
 .projects-image {
   display: flex;
   justify-content: center;
@@ -236,6 +237,13 @@ button {
   }
   :root {
     --global-padding: 48px;
+  }
+  .underline {
+    display: block;
+    bottom: 5%;
+    left: 50%;
+    width: 50%;
+    height: auto;
   }
 }
 
@@ -297,6 +305,10 @@ body {
   }
   .projects-content {
     flex-direction: column;
+  }
+
+  .underline {
+    display: none;
   }
 }
 
