@@ -15,6 +15,13 @@
   --global-paragraph-size: 20px;
 }
 
+h3 {
+  font-family: "Special Elite", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
+
 p {
   font-size: var(--global-paragraph-size);
 }
@@ -30,6 +37,10 @@ a:hover {
 
 img {
   pointer-events: none;
+}
+
+.hidden {
+  display: none;
 }
 
 .wrapper {
@@ -61,11 +72,14 @@ button {
   font-style: normal;
   background-color: var(--accent-color);
   padding: 10px;
-  border: none;
   color: var(--dark-color);
   text-decoration: none;
 
   border: 1px dashed var(--dark-color);
+
+  mask-image: url("../img/mask-grunge-12242024\ 1\ \(Traced\).svg");
+  mask-size: auto;
+  mask-position: bottom left;
 }
 
 .button-primary:hover {
@@ -155,6 +169,10 @@ button {
 .ul-nav {
   display: flex;
   padding: 0px;
+
+  mask-image: url("../img/mask-grunge-12242024\ 1\ \(Traced\).svg");
+  mask-size: auto;
+  mask-position: bottom left;
 }
 
 .li-nav:nth-child(1) {
@@ -223,10 +241,24 @@ button {
 .projects-image {
   display: flex;
   justify-content: center;
+  align-items: center;
+  color: var(--dark-color);
+  padding: 24px;
   height: 400px;
   width: 500px;
   margin-top: var(--global-image-margin);
   margin-bottom: var(--global-image-margin);
+  background-color: var(--accent-color);
+  border: 1px dashed var(--dark-color);
+
+  mask-image: url("../img/mask-grunge-12242024\ 1\ \(Traced\).svg");
+  mask-size: cover;
+  mask-position: center;
+}
+
+.projects-image:hover {
+  color: var(--light-color);
+  background-color: var(--secondary-color);
 }
 
 .section-projects {
