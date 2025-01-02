@@ -203,6 +203,20 @@ button {
   font-style: normal;
   color: var(--accent-color);
   text-decoration: none;
+
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  z-index: 1;
 }
 
 .li-nav:hover {
