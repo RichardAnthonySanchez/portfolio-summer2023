@@ -141,7 +141,7 @@ button {
   position: relative;
   height: auto;
   scale: 125%;
-  left: -120%;
+  left: -200%;
   bottom: 255%;
 }
 
@@ -333,6 +333,12 @@ button {
 
 .svg-circle-container {
   height: 50px;
+}
+
+@media only screen and (max-width: 2400px) {
+  .svg-arrow3 {
+    left: -120%;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
