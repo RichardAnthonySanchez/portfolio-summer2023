@@ -24,6 +24,7 @@ h3 {
 
 p {
   font-size: var(--global-paragraph-size);
+  line-height: 2;
 }
 
 a {
