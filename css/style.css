@@ -129,7 +129,7 @@ button {
     rgba(0, 0, 0, 0.2) 90%,
     rgba(255, 255, 255, 0.1) 100%
   );
-  background-size: 2px 2px; /* Adjust the size of "noise" */
+  background-size: 0.09% 0.16%; /* Adjust the size of "noise" */
   background-repeat: repeat;
   overflow: hidden;
 }
