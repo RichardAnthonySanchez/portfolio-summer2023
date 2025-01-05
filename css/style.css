@@ -137,11 +137,14 @@ button {
   padding-left: var(--global-text-padding);
 }
 
+.svg-underline-container {
+  height: 50px;
+}
+
 .underline {
-  position: absolute;
-  bottom: 0;
-  width: 25%;
-  height: auto;
+  position: relative;
+  bottom: 150%;
+  left: -5%;
 }
 
 .svg-arrow3 {
@@ -255,6 +258,15 @@ button {
   background-size: 30px 30px;
 }
 
+.intro-heading-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-heading {
+  margin: 0px;
+}
+
 .shadow {
   box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -337,11 +349,9 @@ button {
     --global-padding: 48px;
   }
   .underline {
-    display: block;
-    bottom: 5%;
-    left: 50%;
-    width: 50%;
     height: auto;
+    width: 100%;
+    left: 0%;
   }
   .svg-circle {
     bottom: -45%;
