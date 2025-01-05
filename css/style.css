@@ -148,12 +148,17 @@ button {
   left: -5%;
 }
 
+.svg-arrow3-container {
+  height: 50px;
+  z-index: 1;
+}
+
 .svg-arrow3 {
-  position: absolute;
-  bottom: -8%;
-  width: 25%;
-  left: 12%;
+  position: relative;
   height: auto;
+  scale: 125%;
+  left: -120%;
+  bottom: 255%;
 }
 
 .svg-circle {
@@ -250,6 +255,7 @@ button {
 .section-intro {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: var(--medium-color);
   margin-top: 12px;
   transform: rotate(-0.5deg);
@@ -362,9 +368,6 @@ button {
     height: auto;
   }
   .svg-arrow3 {
-    bottom: -8%;
-    width: 50%;
-    left: -5%;
     height: auto;
   }
 }
@@ -430,10 +433,6 @@ body {
   }
 
   .svg-underline-container {
-    display: none;
-  }
-
-  .svg-arrow3 {
     display: none;
   }
 }
