@@ -348,8 +348,10 @@ button {
   :root {
     --global-padding: 48px;
   }
+
   .underline {
     height: auto;
+    bottom: 120%;
     width: 100%;
     left: 0%;
   }
@@ -427,7 +429,7 @@ body {
     flex-direction: column;
   }
 
-  .underline {
+  .svg-underline-container {
     display: none;
   }
 
