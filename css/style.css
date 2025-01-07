@@ -432,6 +432,7 @@ body {
   }
   .section-intro {
     flex-direction: column-reverse;
+    transform: rotate(0deg);
   }
   .projects-content {
     flex-direction: column;
