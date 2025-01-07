@@ -455,6 +455,14 @@ body {
   h1 {
     text-align: center;
   }
+
+  .text-to-copy {
+    text-align: center;
+  }
+
+  .footer-link p {
+    text-align: center;
+  }
 }
 
 .accordion-button:not(.collapse) {
