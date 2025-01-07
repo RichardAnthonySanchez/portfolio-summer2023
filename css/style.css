@@ -446,6 +446,10 @@ body {
   .svg-underline-container {
     display: none;
   }
+
+  h1 {
+    text-align: center;
+  }
 }
 
 .accordion-button:not(.collapse) {
