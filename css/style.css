@@ -440,6 +440,11 @@ body {
   .projects-image {
     width: 300px;
   }
+
+  .products-image,
+  h3 {
+    font-size: 3rem;
+  }
   .section-footer {
     flex-direction: column;
   }
