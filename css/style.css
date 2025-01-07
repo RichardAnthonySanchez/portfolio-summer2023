@@ -6,7 +6,7 @@
   --dark-color: #2d2d2d;
   --accent-color: #c4572f;
   --secondary-color: #5f9ea0;
-  --transparent-color: #000;
+  --transparent-color: #00000000;
 
   --global-padding: 350px;
   --global-text-padding: 24px;
@@ -44,6 +44,10 @@ img {
   display: none;
 }
 
+.copy-button {
+  text-decoration: none;
+}
+
 .wrapper {
   padding-left: var(--global-padding);
   padding-right: var(--global-padding);
@@ -59,12 +63,21 @@ button {
   font-family: "Special Elite", serif;
   font-weight: 400;
   font-style: normal;
-  background-color: var(--accent-color);
+  background-color: var(--transparent-color);
   padding: 10px;
   border: none;
-  color: var(--dark-color);
+  color: var(--accent-color);
+  font-size: var(--global-paragraph-size);
 
   border: 1px dashed var(--dark-color);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.show {
+  display: block;
 }
 
 .button-primary {

@@ -139,11 +139,11 @@
       <!--footer-->
       <div class="section-footer wrapper">
         <div class="footer-body">
-          <p>tony@tonysanchez.dev</p>
+          <p class="text-to-copy">tony@tonysanchez.dev</p>
         </div>
         <div id="contact" class="footer-link">
           <p>
-            <a href="#">(Copy email to clipboard)</a>
+            <button class="copy-button">(Copy email to clipboard)</button>
           </p>
           <div class="svg-circle-container">
             <img
@@ -153,7 +153,11 @@
             />
           </div>
         </div>
+        <div class="popup hidden" id="copy-popup">
+          Text copied to clipboard!
+        </div>
       </div>
     </div>
   </body>
+  <script src="./js/script.js"></script>
 </html>

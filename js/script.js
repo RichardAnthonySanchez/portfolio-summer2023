@@ -1,19 +1,22 @@
-const copyButtons = document.querySelectorAll('.copy-button');
-const textToCopy = document.querySelectorAll('.text-to-copy');
+const copyButtons = document.querySelectorAll(".copy-button");
+const textToCopyElements = document.querySelectorAll(".text-to-copy");
+const popup = document.getElementById("copy-popup");
 
 copyButtons.forEach((button, index) => {
-  button.addEventListener('click', () => {
-    const range = document.createRange();
-    range.selectNode(textToCopy[index]);
+  button.addEventListener("click", () => {
+    const textToCopy = textToCopyElements[index].textContent;
 
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
-
-    document.execCommand('copy');
-
-    selection.removeAllRanges();
-
-    button.textContent = 'Copied!';
+    navigator.clipboard
+      .writeText(textToCopy)
+      .then(() => {
+        // Show a success message
+        popup.classList.add("show");
+        setTimeout(() => {
+          popup.classList.remove("show");
+        }, 1000); // Hide after 2 seconds
+      })
+      .catch((error) => {
+        console.error("Failed to copy text: ", error);
+      });
   });
 });
