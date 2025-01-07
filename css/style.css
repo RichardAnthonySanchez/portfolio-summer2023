@@ -426,7 +426,7 @@ body {
     font-size: 0.8rem;
   }
   :root {
-    --global-padding: 100px;
+    --global-padding: 25px;
     --global-text-padding: 0px;
     --global-image-margin: 24px;
   }
@@ -436,7 +436,12 @@ body {
   .projects-content {
     flex-direction: column;
   }
-
+  .projects-image {
+    width: 300px;
+  }
+  .section-footer {
+    flex-direction: column;
+  }
   .svg-underline-container {
     display: none;
   }
